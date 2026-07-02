@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Líderes LIGO</title>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    html, body {
+      height: 100%;
+      font-family: 'Lato', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #F8FAFC;
+    }
+    
+    body {
+      padding: 2rem 1rem;
+    }
+    
+    .header {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+    
+    .header h1 {
+      font-family: 'Sora', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 32px;
+      font-weight: 500;
+      color: #210051;
+      letter-spacing: -0.5px;
+    }
+    
+    .header p {
+      font-size: 14px;
+      color: #888780;
+      margin-top: 0.5rem;
+    }
+    
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+    }
+    
+    .card {
+      background: white;
+      border-radius: 12px;
+      border: 1px solid #E5E5E5;
+      overflow: hidden;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+      transition: box-shadow 0.2s ease;
+    }
+    
+    .card:hover {
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+    }
+    
+    .video-container {
+      position: relative;
+      width: 100%;
+      padding-bottom: 56.25%;
+      background: #F5F5F5;
+    }
+    
+    .video-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+    
+    .card-content {
+      padding: 1.5rem;
+    }
+    
+    .card-title {
+      font-family: 'Sora', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 20px;
+      font-weight: 500;
+      color: #210051;
+      margin-bottom: 0.5rem;
+    }
+    
+    .card-subtitle {
+      font-size: 13px;
+      color: #8545EA;
+      font-weight: 500;
+      letter-spacing: 0.3px;
+    }
+    
+    @media (max-width: 640px) {
+      body {
+        padding: 1rem;
+      }
+      
+      .header h1 {
+        font-size: 24px;
+      }
+      
+      .header {
+        margin-bottom: 2rem;
+      }
+      
+      .card-content {
+        padding: 1rem;
+      }
+      
+      .card-title {
+        font-size: 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>Líderes LIGO</h1>
+    <p>Recursos de desarrollo y liderazgo</p>
+  </div>
+
+  <div class="container">
+    <div class="card">
+      <div class="video-container">
+        <iframe src="https://drive.google.com/file/d/1A2zAofCiuwjBWsEVB6N8rRJBQanB_rft/preview" allow="autoplay" allowfullscreen="true"></iframe>
+      </div>
+      <div class="card-content">
+        <h2 class="card-title">Víctima vs Protagonista</h2>
+        <p class="card-subtitle">Transformación de mentalidad</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
